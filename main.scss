@@ -12,7 +12,7 @@ html, body {
   }
   
   nav.navbar {
-    border-bottom: 1px solid #494444c4;
+    border-bottom: 1px solid #777777b0;
     margin-bottom: 1rem;
   }
   .navbar-item.brand-text {
@@ -76,7 +76,7 @@ html, body {
    
     background-color: rgba(185, 255, 195, 0.568);
     margin-top: 37px;
-    border-bottom: 1px solid #494444c4;
+    border-bottom: 1px solid #a3a0a0b0;
    
   }
   #ordendetalle{
@@ -98,9 +98,26 @@ html, body {
   .column h3{
     margin-bottom: 4px;
   }
-  .columns.is-gapless{
+  .column.is-3{
+    text-align: center;
+  }
+  .columns.is-gapless.orden{
     
-    border-top: 1px solid #494444c4;
+    border-top: 1px solid #a3a0a0b0;
+  }
+  .columns{
+    align-items: center;
+  }
+  .tarjeta{
+    width: 90%;
+    height:196px;
+    margin:10px auto;
+    padding:8px;
+    border: 1px solid #a3a0a0b0;
+    border-radius: 3px;
+    
+    
+   
   }
 
   .card .content {
