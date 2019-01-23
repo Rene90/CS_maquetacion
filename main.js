@@ -1,3 +1,4 @@
+
 (function() {
     var burger = document.querySelector('.burger');
     var menu = document.querySelector('#'+burger.dataset.target);
