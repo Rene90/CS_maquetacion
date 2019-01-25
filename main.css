@@ -6675,6 +6675,12 @@ html, body {
   background: white;
   color: black; }
 
+h3 {
+  color: black !important; }
+
+.navbar-end a {
+  color: rgba(68, 67, 67, 0.781) !important; }
+
 .grayg {
   background: #ECF0F3; }
 
